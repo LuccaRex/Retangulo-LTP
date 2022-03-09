@@ -17,7 +17,9 @@ class Retangulo{
 }
 let quadrado = new Retangulo("10", "10");
 let retangulo = new Retangulo("30", "60");
+let objeto1 = new Retangulo("50", "100");
 //console.log(quadrado.mostrarAtributos(), quadrado.calcularArea())
 //console.log(retangulo.mostrarAtributos(), retangulo.calcularArea())
 console.log(quadrado.area())
 console.log(retangulo.area())
+console.log(objeto1.area())
